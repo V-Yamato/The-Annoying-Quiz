@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2762C7B452878681A058CB2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08403C496D08203E31D536E5 /* libPods.a */; };
 		8AA93D501D23DF17000C03C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93D4F1D23DF17000C03C0 /* main.m */; };
 		8AA93D531D23DF17000C03C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93D521D23DF17000C03C0 /* AppDelegate.m */; };
-		8AA93D561D23DF17000C03C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93D551D23DF17000C03C0 /* ViewController.m */; };
 		8AA93D591D23DF17000C03C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93D571D23DF17000C03C0 /* Main.storyboard */; };
 		8AA93D5B1D23DF17000C03C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93D5A1D23DF17000C03C0 /* Assets.xcassets */; };
 		8AA93D5E1D23DF17000C03C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93D5C1D23DF17000C03C0 /* LaunchScreen.storyboard */; };
 		8AA93D691D23DF17000C03C0 /* The_Annoying_QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93D681D23DF17000C03C0 /* The_Annoying_QuizTests.m */; };
 		8AA93D741D23DF17000C03C0 /* The_Annoying_QuizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93D731D23DF17000C03C0 /* The_Annoying_QuizUITests.m */; };
+		8AFDFC101D26691B0080A759 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFDFC0B1D26691B0080A759 /* Launch.storyboard */; };
+		8AFDFC111D26691B0080A759 /* LaunchAnimaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFDFC0D1D26691B0080A759 /* LaunchAnimaViewController.m */; };
+		8AFDFC121D26691B0080A759 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFDFC0F1D26691B0080A759 /* LaunchViewController.m */; };
+		8AFDFC161D2669910080A759 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFDFC151D2669910080A759 /* StartViewController.m */; };
+		8AFDFC181D266A2C0080A759 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFDFC171D266A2C0080A759 /* Start.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08403C496D08203E31D536E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7CE323A7E6545CEFC28327 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8AA93D4B1D23DF17000C03C0 /* The Annoying Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Annoying Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA93D4F1D23DF17000C03C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AA93D511D23DF17000C03C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA93D521D23DF17000C03C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8AA93D541D23DF17000C03C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA93D551D23DF17000C03C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA93D581D23DF17000C03C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA93D5A1D23DF17000C03C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA93D5D1D23DF17000C03C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		8AA93D6F1D23DF17000C03C0 /* The Annoying QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Annoying QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA93D731D23DF17000C03C0 /* The_Annoying_QuizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Annoying_QuizUITests.m; sourceTree = "<group>"; };
 		8AA93D751D23DF17000C03C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFDFC0B1D26691B0080A759 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		8AFDFC0C1D26691B0080A759 /* LaunchAnimaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAnimaViewController.h; sourceTree = "<group>"; };
+		8AFDFC0D1D26691B0080A759 /* LaunchAnimaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAnimaViewController.m; sourceTree = "<group>"; };
+		8AFDFC0E1D26691B0080A759 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		8AFDFC0F1D26691B0080A759 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		8AFDFC141D2669910080A759 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		8AFDFC151D2669910080A759 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		8AFDFC171D266A2C0080A759 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		FC44067471F1925B6F044A79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2762C7B452878681A058CB2F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5A625693CFC203E5D0F044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC44067471F1925B6F044A79 /* Pods.debug.xcconfig */,
+				2F7CE323A7E6545CEFC28327 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E545B60D0D570FDC1AFE73F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08403C496D08203E31D536E5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A07A9101D2527C80045859C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AFDFC131D2669850080A759 /* Start */,
+				8AFDFC0A1D26691B0080A759 /* Launch */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8AA93D421D23DF17000C03C0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				8AA93D671D23DF17000C03C0 /* The Annoying QuizTests */,
 				8AA93D721D23DF17000C03C0 /* The Annoying QuizUITests */,
 				8AA93D4C1D23DF17000C03C0 /* Products */,
+				3A5A625693CFC203E5D0F044 /* Pods */,
+				4E545B60D0D570FDC1AFE73F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +144,11 @@
 		8AA93D4D1D23DF17000C03C0 /* The Annoying Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				8A07A9101D2527C80045859C /* Controllers */,
 				8AA93D511D23DF17000C03C0 /* AppDelegate.h */,
 				8AA93D521D23DF17000C03C0 /* AppDelegate.m */,
-				8AA93D541D23DF17000C03C0 /* ViewController.h */,
-				8AA93D551D23DF17000C03C0 /* ViewController.m */,
-				8AA93D571D23DF17000C03C0 /* Main.storyboard */,
 				8AA93D5A1D23DF17000C03C0 /* Assets.xcassets */,
+				8AA93D571D23DF17000C03C0 /* Main.storyboard */,
 				8AA93D5C1D23DF17000C03C0 /* LaunchScreen.storyboard */,
 				8AA93D5F1D23DF17000C03C0 /* Info.plist */,
 				8AA93D4E1D23DF17000C03C0 /* Supporting Files */,
@@ -140,6 +182,28 @@
 			path = "The Annoying QuizUITests";
 			sourceTree = "<group>";
 		};
+		8AFDFC0A1D26691B0080A759 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8AFDFC0B1D26691B0080A759 /* Launch.storyboard */,
+				8AFDFC0C1D26691B0080A759 /* LaunchAnimaViewController.h */,
+				8AFDFC0D1D26691B0080A759 /* LaunchAnimaViewController.m */,
+				8AFDFC0E1D26691B0080A759 /* LaunchViewController.h */,
+				8AFDFC0F1D26691B0080A759 /* LaunchViewController.m */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		8AFDFC131D2669850080A759 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				8AFDFC141D2669910080A759 /* StartViewController.h */,
+				8AFDFC151D2669910080A759 /* StartViewController.m */,
+				8AFDFC171D266A2C0080A759 /* Start.storyboard */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA93D781D23DF17000C03C0 /* Build configuration list for PBXNativeTarget "The Annoying Quiz" */;
 			buildPhases = (
+				E1FA49BC16C2A7C831DAE6D6 /* Check Pods Manifest.lock */,
 				8AA93D471D23DF17000C03C0 /* Sources */,
 				8AA93D481D23DF17000C03C0 /* Frameworks */,
 				8AA93D491D23DF17000C03C0 /* Resources */,
+				805D7E1661142407B8656172 /* Embed Pods Frameworks */,
+				D282C539EF6A0E16A843D55F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +312,9 @@
 			files = (
 				8AA93D5E1D23DF17000C03C0 /* LaunchScreen.storyboard in Resources */,
 				8AA93D5B1D23DF17000C03C0 /* Assets.xcassets in Resources */,
+				8AFDFC181D266A2C0080A759 /* Start.storyboard in Resources */,
 				8AA93D591D23DF17000C03C0 /* Main.storyboard in Resources */,
+				8AFDFC101D26691B0080A759 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +334,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		805D7E1661142407B8656172 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D282C539EF6A0E16A843D55F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FA49BC16C2A7C831DAE6D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AA93D471D23DF17000C03C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA93D561D23DF17000C03C0 /* ViewController.m in Sources */,
 				8AA93D531D23DF17000C03C0 /* AppDelegate.m in Sources */,
 				8AA93D501D23DF17000C03C0 /* main.m in Sources */,
+				8AFDFC161D2669910080A759 /* StartViewController.m in Sources */,
+				8AFDFC111D26691B0080A759 /* LaunchAnimaViewController.m in Sources */,
+				8AFDFC121D26691B0080A759 /* LaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,23 +532,27 @@
 		};
 		8AA93D791D23DF17000C03C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC44067471F1925B6F044A79 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Annoying Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vergil.The-Annoying-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8AA93D7A1D23DF17000C03C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7CE323A7E6545CEFC28327 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Annoying Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vergil.The-Annoying-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +621,7 @@
 				8AA93D7A1D23DF17000C03C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA93D7B1D23DF17000C03C0 /* Build configuration list for PBXNativeTarget "The Annoying QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +630,7 @@
 				8AA93D7D1D23DF17000C03C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA93D7E1D23DF17000C03C0 /* Build configuration list for PBXNativeTarget "The Annoying QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +639,7 @@
 				8AA93D801D23DF17000C03C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
