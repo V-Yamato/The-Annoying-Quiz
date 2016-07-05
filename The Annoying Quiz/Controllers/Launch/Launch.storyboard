@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="NNc-wT-sNU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jwb-Lz-4f6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Vergil Presents Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgl-cp-KwU">
-                                <rect key="frame" x="191.5" y="290" width="217.5" height="20.5"/>
+                                <rect key="frame" x="259" y="196" width="217.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -31,6 +31,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3z5-0P-8De"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="welcomeLbl" destination="rgl-cp-KwU" id="Yom-3l-dTe"/>
                     </connections>
@@ -48,17 +50,17 @@
                         <viewControllerLayoutGuide type="bottom" id="Kv9-fL-sAQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jqz-ii-tjI">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power,i need more power!!!!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-ym-nyY">
-                                <rect key="frame" x="189" y="289.5" width="222" height="21"/>
+                                <rect key="frame" x="257" y="196" width="222" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--Devil May Cry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-Oh-eqa">
-                                <rect key="frame" x="290" y="330.5" width="121" height="21"/>
+                                <rect key="frame" x="358" y="237" width="121" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -72,6 +74,8 @@
                             <constraint firstItem="aYg-Oh-eqa" firstAttribute="top" secondItem="Thz-ym-nyY" secondAttribute="bottom" constant="20" id="y0M-vi-0lX"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="quoteLbl" destination="Thz-ym-nyY" id="fB3-BR-FfV"/>
                         <outlet property="quoterLbl" destination="aYg-Oh-eqa" id="9cv-XT-sVb"/>
@@ -79,18 +83,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFa-5L-qf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1675" y="258"/>
+            <point key="canvasLocation" x="1791" y="271"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BNL-3B-0Ph">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xox-TL-ofs" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Xox-TL-ofs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="div-yX-NnH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="WeX-Nj-zyk">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="XqV-KB-DTg" kind="relationship" relationship="rootViewController" id="lfn-Ba-Uff"/>
                     </connections>

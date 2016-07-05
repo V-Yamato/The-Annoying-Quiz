@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationController.navigationBar setHidden:YES];
+    [self.navigationController.interactivePopGestureRecognizer setEnabled:NO];
     [self setUpSubViews];
 }
 

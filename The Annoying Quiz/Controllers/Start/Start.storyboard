@@ -14,56 +14,60 @@
                         <viewControllerLayoutGuide type="bottom" id="nT4-yd-Zp5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="f95-hB-J8x">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vf-Qo-fQj">
-                                <rect key="frame" x="159" y="60" width="283" height="161"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Annoying Quiz!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tws-9V-JbH">
-                                        <rect key="frame" x="56" y="70" width="170" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="283" id="YG4-to-taZ"/>
-                                    <constraint firstItem="tws-9V-JbH" firstAttribute="centerX" secondItem="2vf-Qo-fQj" secondAttribute="centerX" id="cq1-BQ-1fc"/>
-                                    <constraint firstItem="tws-9V-JbH" firstAttribute="centerY" secondItem="2vf-Qo-fQj" secondAttribute="centerY" id="kKn-pE-d4l"/>
-                                    <constraint firstAttribute="height" constant="161" id="lGo-Yz-hwE"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMA-6C-0wZ">
-                                <rect key="frame" x="281" y="271" width="37" height="30"/>
-                                <state key="normal" title="start!"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZw-AW-6WJ">
+                                <rect key="frame" x="133" y="85" width="57" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annoying" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCN-wB-jp3">
+                                <rect key="frame" x="290" y="135" width="157" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfu-G1-7nq">
+                                <rect key="frame" x="234" y="229" width="269" height="68"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="43"/>
+                                <state key="normal" title="start！！！！">
+                                    <color key="titleColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UjF-4c-P7d">
-                                <rect key="frame" x="283" y="321" width="34" height="30"/>
-                                <state key="normal" title="shop"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lt-gN-eOa">
-                                <rect key="frame" x="267" y="371" width="67" height="30"/>
-                                <state key="normal" title="collection"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAJ-v7-OvX">
+                                <rect key="frame" x="547" y="185" width="72" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TMA-6C-0wZ" firstAttribute="top" secondItem="2vf-Qo-fQj" secondAttribute="bottom" constant="50" id="1MH-Fs-8ef"/>
-                            <constraint firstItem="1lt-gN-eOa" firstAttribute="top" secondItem="UjF-4c-P7d" secondAttribute="bottom" constant="20" id="8P1-Zf-2HN"/>
-                            <constraint firstItem="2vf-Qo-fQj" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="CEz-mp-y7O"/>
-                            <constraint firstItem="1lt-gN-eOa" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="LvM-OO-3eD"/>
-                            <constraint firstItem="2vf-Qo-fQj" firstAttribute="top" secondItem="lSy-Im-2Vl" secondAttribute="bottom" constant="40" id="Qg9-Q4-apA"/>
-                            <constraint firstItem="UjF-4c-P7d" firstAttribute="top" secondItem="TMA-6C-0wZ" secondAttribute="bottom" constant="20" id="Y60-ma-bz7"/>
-                            <constraint firstItem="UjF-4c-P7d" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="gJX-rT-RgJ"/>
-                            <constraint firstItem="TMA-6C-0wZ" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="rYy-mo-GV4"/>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="leading" secondItem="tZw-AW-6WJ" secondAttribute="trailing" constant="100" id="0L7-QM-daP"/>
+                            <constraint firstItem="Jfu-G1-7nq" firstAttribute="top" secondItem="UCN-wB-jp3" secondAttribute="bottom" constant="50" id="3NK-ss-nAp"/>
+                            <constraint firstItem="LAJ-v7-OvX" firstAttribute="centerY" secondItem="UCN-wB-jp3" secondAttribute="centerY" constant="50" id="87u-yL-11i"/>
+                            <constraint firstItem="tZw-AW-6WJ" firstAttribute="centerY" secondItem="UCN-wB-jp3" secondAttribute="centerY" constant="-50" id="LSt-D6-iOC"/>
+                            <constraint firstItem="Jfu-G1-7nq" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="Skw-n1-bBB"/>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="XkA-c4-Nuy"/>
+                            <constraint firstItem="LAJ-v7-OvX" firstAttribute="leading" secondItem="UCN-wB-jp3" secondAttribute="trailing" constant="100" id="fpL-VL-jXv"/>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="centerY" secondItem="f95-hB-J8x" secondAttribute="centerY" constant="-50" id="yp9-Ob-Y8M"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4s-ZD-hQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="337" y="307"/>
+            <point key="canvasLocation" x="399" y="287"/>
         </scene>
     </scenes>
 </document>
