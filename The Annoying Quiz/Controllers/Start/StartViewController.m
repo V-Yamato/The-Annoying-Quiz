@@ -7,6 +7,7 @@
 //
 
 #import "StartViewController.h"
+#import "Quest1ViewController.h"
 
 @interface StartViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSUserDefaults *lifeDefaults = [NSUserDefaults standardUserDefaults];
+    [lifeDefaults setInteger:3 forKey:@"lifes"];
     // Do any additional setup after loading the view.
 }
 
@@ -24,14 +27,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark --Action
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)startBtnClick:(id)sender {
+    UIStoryboard *allQuestSB = [UIStoryboard storyboardWithName:@"AllQuestions" bundle:nil];
+    Quest1ViewController *questViewCtrl = [allQuestSB instantiateViewControllerWithIdentifier:@"Quest1ViewController"];
+    [self.navigationController pushViewController:questViewCtrl animated:NO];
 }
-*/
+
+
+
+
 
 @end
