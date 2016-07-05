@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xox-TL-ofs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="dva-it-zcr">
+            <objects>
+                <viewController id="XqV-KB-DTg" customClass="LaunchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lcc-UA-LOl"/>
+                        <viewControllerLayoutGuide type="bottom" id="NNc-wT-sNU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jwb-Lz-4f6">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Vergil Presents Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgl-cp-KwU">
+                                <rect key="frame" x="259" y="196" width="217.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rgl-cp-KwU" firstAttribute="centerX" secondItem="jwb-Lz-4f6" secondAttribute="centerX" id="6ug-iz-WTk"/>
+                            <constraint firstItem="rgl-cp-KwU" firstAttribute="centerY" secondItem="jwb-Lz-4f6" secondAttribute="centerY" id="fms-Lc-Tgs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3z5-0P-8De"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="welcomeLbl" destination="rgl-cp-KwU" id="Yom-3l-dTe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FsL-Ah-aLT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="258"/>
+        </scene>
+        <!--Launch Anima View Controller-->
+        <scene sceneID="1o6-u5-tlE">
+            <objects>
+                <viewController storyboardIdentifier="LaunchAnimaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lv5-Kc-UCD" customClass="LaunchAnimaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s2U-3X-rBh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kv9-fL-sAQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jqz-ii-tjI">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power,i need more power!!!!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-ym-nyY">
+                                <rect key="frame" x="257" y="196" width="222" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--Devil May Cry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-Oh-eqa">
+                                <rect key="frame" x="358" y="237" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aYg-Oh-eqa" firstAttribute="trailing" secondItem="Thz-ym-nyY" secondAttribute="trailing" id="glu-TT-gRW"/>
+                            <constraint firstItem="Thz-ym-nyY" firstAttribute="centerX" secondItem="jqz-ii-tjI" secondAttribute="centerX" id="rRQ-0Y-CYS"/>
+                            <constraint firstItem="Thz-ym-nyY" firstAttribute="centerY" secondItem="jqz-ii-tjI" secondAttribute="centerY" id="xz7-Vc-XRi"/>
+                            <constraint firstItem="aYg-Oh-eqa" firstAttribute="top" secondItem="Thz-ym-nyY" secondAttribute="bottom" constant="20" id="y0M-vi-0lX"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="quoteLbl" destination="Thz-ym-nyY" id="fB3-BR-FfV"/>
+                        <outlet property="quoterLbl" destination="aYg-Oh-eqa" id="9cv-XT-sVb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFa-5L-qf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="271"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BNL-3B-0Ph">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Xox-TL-ofs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="div-yX-NnH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="WeX-Nj-zyk">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="XqV-KB-DTg" kind="relationship" relationship="rootViewController" id="lfn-Ba-Uff"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yEw-2c-f0X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="258"/>
+        </scene>
+    </scenes>
+</document>

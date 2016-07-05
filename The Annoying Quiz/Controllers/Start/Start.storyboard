@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="dao-K7-yjO">
+            <objects>
+                <viewController storyboardIdentifier="StartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XeN-2j-SVP" customClass="StartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lSy-Im-2Vl"/>
+                        <viewControllerLayoutGuide type="bottom" id="nT4-yd-Zp5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f95-hB-J8x">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZw-AW-6WJ">
+                                <rect key="frame" x="133" y="85" width="57" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annoying" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCN-wB-jp3">
+                                <rect key="frame" x="290" y="135" width="157" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAJ-v7-OvX">
+                                <rect key="frame" x="547" y="185" width="72" height="44"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfu-G1-7nq">
+                                <rect key="frame" x="234" y="229" width="269" height="68"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="43"/>
+                                <state key="normal" title="start！！！！">
+                                    <color key="titleColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startBtnClick:" destination="XeN-2j-SVP" eventType="touchUpInside" id="4UB-jW-5JD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="leading" secondItem="tZw-AW-6WJ" secondAttribute="trailing" constant="100" id="0L7-QM-daP"/>
+                            <constraint firstItem="Jfu-G1-7nq" firstAttribute="top" secondItem="UCN-wB-jp3" secondAttribute="bottom" constant="50" id="3NK-ss-nAp"/>
+                            <constraint firstItem="LAJ-v7-OvX" firstAttribute="centerY" secondItem="UCN-wB-jp3" secondAttribute="centerY" constant="50" id="87u-yL-11i"/>
+                            <constraint firstItem="tZw-AW-6WJ" firstAttribute="centerY" secondItem="UCN-wB-jp3" secondAttribute="centerY" constant="-50" id="LSt-D6-iOC"/>
+                            <constraint firstItem="Jfu-G1-7nq" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="Skw-n1-bBB"/>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="centerX" secondItem="f95-hB-J8x" secondAttribute="centerX" id="XkA-c4-Nuy"/>
+                            <constraint firstItem="LAJ-v7-OvX" firstAttribute="leading" secondItem="UCN-wB-jp3" secondAttribute="trailing" constant="100" id="fpL-VL-jXv"/>
+                            <constraint firstItem="UCN-wB-jp3" firstAttribute="centerY" secondItem="f95-hB-J8x" secondAttribute="centerY" constant="-50" id="yp9-Ob-Y8M"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4s-ZD-hQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="285"/>
+        </scene>
+    </scenes>
+</document>
